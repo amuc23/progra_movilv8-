@@ -1,0 +1,50 @@
+ion-content {
+  --background: none;
+  background: linear-gradient(to bottom right, #121212, #007bff);
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banned-title {
+  color: #ff4d4d;
+}
+
+.reseña-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.banned-card {
+  background-color: #f2f2f2;
+  border: 2px solid #ff4d4d;
+}
+
+ion-card-title {
+  font-size: 1.3rem;
+  color: #000000;
+  text-align: left;
+}
+
+p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+ion-button {
+  --background: #007bff;
+  --color: #ffffff;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+ion-button[color="danger"] {
+  --background: #ff4d4d;
+}
